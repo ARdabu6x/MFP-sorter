@@ -47,14 +47,12 @@ def change():
         z_kategorie.set("True")
         z_podkategorie.set("True")
         show.configure(state="disabled")
-        disable.configure(state="disabled")
     elif z_settings.get()=="standard":
         log.debug(lan["mode_standard"])
         create.configure(state="disabled")
         kategorie.configure(state="normal")
         podkategorie.configure(state="normal")
         show.configure(state="normal")
-        disable.configure(state="normal")
 
 def show_standard():
     with open(exps, "r", encoding="utf-8") as f:
@@ -395,13 +393,14 @@ def start(callback):
     kategorie.grid(row=4, column=1)
     podkategorie.grid(row=4, column=2)
     show.grid(row=5, column=1, columnspan=2, pady=(0, 5))
-    disable.grid(row=6, column=1, columnspan=2, pady=(0, 10))
-    fix.grid(row=7, column=1, columnspan=5)
-    hline.grid(row=3, column=3, rowspan=4, sticky="ns")
+    disable.grid(row=7, column=3, columnspan=3, pady=(0, 10))
+    line(6, 0, 6, (5, 5))
+    fix.grid(row=7, column=0, columnspan=3)
+    hline.grid(row=3, column=3, rowspan=3, sticky="ns")
     custom.grid(row=3, column=4)
-    create.grid(row=4, column=4, columnspan=2, pady=(0, 5), rowspan=3)
+    create.grid(row=4, column=4, columnspan=2, pady=(0, 5), rowspan=2)
         #potwierdzenie#
-    line(8, 0, 7, (10, 0))
+    line(8, 0, 7, (0, 0))
     submit.grid(row=9, column=0, columnspan=6)
 
     okno.protocol("WM_DELETE_WINDOW", on_exit)
