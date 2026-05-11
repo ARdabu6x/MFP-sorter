@@ -1,0 +1,141 @@
+
+{
+    "en":{
+        "Documents":{
+            "Presentations":{
+                "Shows":[".ppsx", ".pps", ".ppsm", ".shw", ".dps", "sdd"],
+                "Edits":[".pptx", ".ppt", "pptm", ".odp", ".key", ".dpt", ".sxi"],
+                "Templates":[".potx", ".pot", ".potm", "otp"]
+            },
+            "Text":{
+                "Text documents":[".docx", ".doc", ".docm", ".odt", ".wps", ".rtf", ".txt", ".md"],
+                "Templates":[".dotx", ".dot", ".dotm", ".ott", ".wpt"]
+            },
+            "PDF":[".pdf", ".xps", ".oxps"],
+            "Calculation sheets":{
+                "Sheets":[".xls", ".xlsx", ".xlsm", ".xlsb", ".ods", ".fods", ".numbers"],
+                "Templates":[".xltx", ".xltm", ".ots", ".template"],
+                "Tabular data":[".csv", ".tsv", ".tab"],
+                "Auxiliary":[".xlr", ".xlw"]
+            }
+        },
+        "Pictures":{
+            "Graphics":[".jpg", ".jpeg", ".png", ".webp", ".gif", ".tiff", ".tif", ".bmp", ".heic", ".heif", ".avif"],
+            "Vector graphics":[".svg", ".ai", ".eps", ".cdr", ".wmf"],
+            "Raw":[".raw", ".cr2", ".cr3", ".crw", ".nef", ".nrw", ".arw", ".srf", ".sr2", ".raf", ".dng"],
+            "Specialized":[".psd", ".xcf", ".ico", ".apng", ".pcx", ".divu"]
+        },
+        "Music":{
+            "Lossy":[".mp3", ".aac", ".mpc",".ogg",".oga",".opus",".wma",".ra",".ram"],
+            "Lossless":[".flac",".alac",".m4a",".ape",".wv",".tta",".wmall"],
+            "Uncompressed":[".wav",".aiff",".pcm",".dsd",".an"],
+            "Other":[".m4b",".ac3",".mga"]
+        },
+        "Video":{
+            "Universal":[".mp4",".mkv",".mov",".avi",".wmv",".webm",".flv",".mpq"],
+            "Specialized":[".ts",".mts",".m2ts",".vob",".mxf",".r3d",".braw",".dv",".asf"],
+            "Archival":[".3gp",".3g2",".amv",".dat",".bik",".rmvb",".ogv",".divx"]
+        },
+        "Compressions":[".rar",".zip",".7z",".tar",".gz",".gzip",".tgz",".tar.gz",".bz2",".xz",".iso",".cab",".arc",".arj",".lzh",".ace",".sit",".sitx"],
+        "Coding":{
+            "Webs":{
+                "HTML":[".html",".htm",".xhtml"],
+                "CSS":[".css",".scss",".sass",".less"],
+                "JavaScript":[".js",".mjs",".cjs"],
+                "TypeScript":[".ts",".tsx"],
+                "PHP":[".php",".phtml",".php4",".php5"],
+                "Frameworki":[".jsx",".vue"]
+            },
+            "General":{
+                "Python":[".py",".pyw",".pyc",".pyo",".pyd"],
+                "Java":[".java",".class",".jar",".war"],
+                "C++":[".cpp",".cxx",".cc",".hpp",".hh"],
+                "C":[".c",".h"],
+                "C#":[".cs",".csproj",".sln"],
+                "Rust":[".rs"],
+                "Go":[".go"],
+                "Swift":[".swift"],
+                "Kotlin":[".kt",".kts"],
+                "Ruby":[".rb",".rbw"]
+            },
+            "Scripts":{
+                "Shell/Bash":[".sh",".bash",".zsh"],
+                "PowerShell":[".ps1",".psm1",".psd1"],
+                "Windows Batch":[".bat",".cmd"],
+                "Lua":[".lua"],
+                "Perl":[".pl",".pm"]
+            },
+            "Configuration":[".json",".yaml",".yml",".toml",".ini",".conf",".cfg",".xml"],
+            "Documentations":[".log",".tex"]
+        }
+    },
+    "pl":{
+        "Dokumenty":{
+            "Prezentacje":{
+                "Pokaz":[".ppsx", ".pps", ".ppsm", ".shw", ".dps", "sdd"],
+                "Edycja":[".pptx", ".ppt", "pptm", ".odp", ".key", ".dpt", ".sxi"],
+                "Szablony":[".potx", ".pot", ".potm", "otp"]
+            },
+            "Tekst":{
+                "Dokumenty tekstowe":[".docx", ".doc", ".docm", ".odt", ".wps", ".rtf", ".txt", ".md"],
+                "Szablony":[".dotx", ".dot", ".dotm", ".ott", ".wpt"]
+            },
+            "PDF":[".pdf", ".xps", ".oxps"],
+            "Arkusze kalkulacyjne":{
+                "Arkusze":[".xls", ".xlsx", ".xlsm", ".xlsb", ".ods", ".fods", ".numbers"],
+                "Szablony":[".xltx", ".xltm", ".ots", ".template"],
+                "Dane tabelaryczne":[".csv", ".tsv", ".tab"],
+                "Pomocnicze":[".xlr", ".xlw"]
+            }
+        },
+        "Obrazy":{
+            "Grafika":[".jpg", ".jpeg", ".png", ".webp", ".gif", ".tiff", ".tif", ".bmp", ".heic", ".heif", ".avif"],
+            "Grafika wektorowa":[".svg", ".ai", ".eps", ".cdr", ".wmf"],
+            "Surowe":[".raw", ".cr2", ".cr3", ".crw", ".nef", ".nrw", ".arw", ".srf", ".sr2", ".raf", ".dng"],
+            "Specjalistyczne":[".psd", ".xcf", ".ico", ".apng", ".pcx", ".divu"]
+        },
+        "Muzyka":{
+            "Stratne":[".mp3", ".aac", ".mpc",".ogg",".oga",".opus",".wma",".ra",".ram"],
+            "Bezstratne":[".flac",".alac",".m4a",".ape",".wv",".tta",".wmall"],
+            "Nieskompresowane":[".wav",".aiff",".pcm",".dsd",".an"],
+            "Inne":[".m4b",".ac3",".mga"]
+        },
+        "Wideo":{
+            "Uniwersalne":[".mp4",".mkv",".mov",".avi",".wmv",".webm",".flv",".mpq"],
+            "Specjalistyczne":[".ts",".mts",".m2ts",".vob",".mxf",".r3d",".braw",".dv",".asf"],
+            "Archiwalne":[".3gp",".3g2",".amv",".dat",".bik",".rmvb",".ogv",".divx"]
+        },
+        "Kompresje":[".rar",".zip",".7z",".tar",".gz",".gzip",".tgz",".tar.gz",".bz2",".xz",".iso",".cab",".arc",".arj",".lzh",".ace",".sit",".sitx"],
+        "Programowanie":{
+            "Strony":{
+                "HTML":[".html",".htm",".xhtml"],
+                "CSS":[".css",".scss",".sass",".less"],
+                "JavaScript":[".js",".mjs",".cjs"],
+                "TypeScript":[".ts",".tsx"],
+                "PHP":[".php",".phtml",".php4",".php5"],
+                "Frameworki":[".jsx",".vue"]
+            },
+            "Ogólne":{
+                "Python":[".py",".pyw",".pyc",".pyo",".pyd"],
+                "Java":[".java",".class",".jar",".war"],
+                "C++":[".cpp",".cxx",".cc",".hpp",".hh"],
+                "C":[".c",".h"],
+                "C#":[".cs",".csproj",".sln"],
+                "Rust":[".rs"],
+                "Go":[".go"],
+                "Swift":[".swift"],
+                "Kotlin":[".kt",".kts"],
+                "Ruby":[".rb",".rbw"]
+            },
+            "Skrypty":{
+                "Shell/Bash":[".sh",".bash",".zsh"],
+                "PowerShell":[".ps1",".psm1",".psd1"],
+                "Windows Batch":[".bat",".cmd"],
+                "Lua":[".lua"],
+                "Perl":[".pl",".pm"]
+            },
+            "Konfiguracyjne":[".json",".yaml",".yml",".toml",".ini",".conf",".cfg",".xml"],
+            "Dokumentacja":[".log",".tex"]
+        }
+    }
+}
